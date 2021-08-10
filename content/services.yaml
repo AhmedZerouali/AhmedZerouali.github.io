@@ -45,6 +45,7 @@
 - event: "Moroccan Collegiate Programming Contest 2014"
   where: ENSIAS, Rabat - Morocco
   kind: Organization
+  link:  http://ensias.um5.ac.ma/library/journals/ideo-iusto-valde-vulpes
 
 # Teaching
 - role: "Teaching Assistant for the <b style=\"font-style: italic;\">Software Architectures</b> course"
