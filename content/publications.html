@@ -22,9 +22,9 @@
     {% if last.update({'kind': item.kind}) %}{% endif %}
   {% endif %}
   <p><li>
-    {{ item.year }} - <strong>{{ item.title }}</strong><br />
+    <strong>{% if item.kind[0] != 'P' %}[{{item.kind[0]}}{{ item.number }}] -{% endif %} {{ item.title }}</strong><br />
     {{ item.authors }}
-    {% if item.published %}<br />{{ item.published }}{% endif %}
+    {% if item.published %}<br />{{ item.published }}{% endif %} - {{ item.year }} 
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     <br />
     {% if item.doi %}[<a href="{{ item.doi }}">DOI</a>]{% endif %}

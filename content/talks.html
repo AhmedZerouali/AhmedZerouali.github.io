@@ -10,9 +10,9 @@
 
 {% for item in biblio|sort(reverse=True, attribute='year')|selectattr('kind', 'equalto', 'Presentation') %}
   <p><li>
-    {{ item.year }} - <strong>{{ item.title }}</strong><br />
-    {{ item.authors }}
-    {% if item.published %}<br />{{ item.published }}{% endif %}
+    <strong>[T{{ item.number }}] - {{ item.title }}</strong>
+<!--     {{ item.authors }}
+ -->    {% if item.published %}<br />{{ item.published }}{% endif %} - {{ item.year }}
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     {% if item.slides %}<br />[<a href="{{ item.slides }}">Slides</a>]{% endif %}
 </li></p>
