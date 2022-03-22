@@ -1,5 +1,31 @@
+- title: "Smelly Variables in Ansible Infrastructure Code: Detection, Prevalence, and Lifetime"
+  authors: Ruben Opdebeeck, <b style="color:#337ADE;">Ahmed Zerouali</b>, Coen De Roover
+  kind: Conferences
+  number: 15
+  year: 2022
+  published: 19th International Conference on Mining Software Repositories (MSR)
+- title: "Prevalence and Evolution of License Violations in npm and RubyGems Dependency Networks"
+  authors: Ilyas Said Makari, <b style="color:#337ADE;">Ahmed Zerouali</b>, Coen De Roover
+  kind: Conferences
+  number: 14
+  year: 2022
+  published: 20th International Conference on Software Reuse (ICSR)
+- title: "Variant Forks – Motivations and Impediments"
+  authors: John Businge, <b style="color:#337ADE;">Ahmed Zerouali</b>, Alexandre Decan, Tom Mens, Serge Demeyer, Coen De Roover
+  kind: Conferences
+  number: 13
+  year: 2022
+  published: 29th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
+  pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-03.pdf
+- title: "On the Impact of Security Vulnerabilities in the npm and RubyGems Dependency Networks"
+  authors: <b style="color:#337ADE;" >Ahmed Zerouali</b>, Tom Mens, Alexandre Decan, Coen De Roover
+  kind: Journals
+  year: 2022
+  number: 6
+  published: Empirical Software Engineering (EMSE)
+  pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-06.pdf
 - title: "Back to the Past -- Analysing Backporting Practices in Package Dependency Networks"
-  authors: Alexandre Decan, Tom Mens, <b style="color:#337ADE;" >Ahmed Zerouali</b>, Coen De Roover
+  authors: Alexandre Decan, Tom Mens, <b style="color:#337ADE;">Ahmed Zerouali</b>, Coen De Roover
   kind: Journals
   year: 2021
   number: 5
@@ -36,7 +62,7 @@
   number: 12
   year: 2021
   slides: https://youtu.be/P6zeRvyCApE
-  published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
+  published: 18th International Conference on Mining Software Repositories (MSR)
   doi: http://doi.org/10.1109/MSR52588.2021.00046
   pdf: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-02.pdf
 - title: "Andromeda: A Dataset of Ansible Galaxy Roles and Their Evolution"
@@ -45,7 +71,7 @@
   number: 11
   year: 2021
   slides: https://youtu.be/F5cMr-Hc-0w
-  published: Proceedings of the 18th International Conference on Mining Software Repositories (MSR)
+  published: 18th International Conference on Mining Software Repositories (MSR)
   doi: https://www.doi.org/10.1109/MSR52588.2021.00078
   pdf: http://soft.vub.ac.be/Publications/2021/vub-tr-soft-21-03.pdf
 - title: "Does Infrastructure as Code Adhere to Semantic Versioning? An Analysis of Ansible Role Evolution"
