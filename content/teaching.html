@@ -12,7 +12,8 @@
 <p>
         <li><strong>{{ item.role }} </strong></br>
         {{ item.course }}</br>
-        {% if item.prof %} {{ item.prof }}, {% endif %} {{ item.year }}</li>
+        {% if item.prof %} {{ item.prof }}</br>
+        {% endif %} {{ item.year }}</li>
 </p>
 {% endfor %}
 
