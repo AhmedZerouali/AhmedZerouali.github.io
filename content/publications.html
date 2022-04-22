@@ -22,15 +22,18 @@
     {% if last.update({'kind': item.kind}) %}{% endif %}
   {% endif %}
   <p><li>
-    <strong>{% if item.kind[0] != 'P' %}[{{item.kind[0]}}{{ item.number }}] -{% endif %} {{ item.title }}</strong><br />
+    {% if item.pdf %}<a href="{{ item.pdf }}"><strong >{% if item.kind[0] != 'P' %}[{{item.kind[0]}}{{ item.number }}] -{% endif %} {{ item.title }}</strong></a><br />
+    {% else %}
+    <strong >{% if item.kind[0] != 'P' %}[{{item.kind[0]}}{{ item.number }}] -{% endif %} {{ item.title }}</strong><br />{% endif %}
     {{ item.authors }}
-    {% if item.published %}<br />{{ item.published }}{% endif %} - {{ item.year }} 
+    {% if item.doi %}{% if item.published %}<br /><a href="{{ item.doi }}">{{ item.published }} - {{ item.year }} </a>{% endif %} 
+    {% else %}
+    {% if item.published %}<br />{{ item.published }} - {{ item.year }} {% endif %}
+    {% endif %}
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     <br />
-    {% if item.doi %}[<a href="{{ item.doi }}">DOI</a>]{% endif %}
-    {% if item.pdf %}[<a href="{{ item.pdf }}">PDF</a>]{% endif %}
     {% if item.slides %}[<a href="{{ item.slides }}">Slides</a>]{% endif %}
-    {% if item.award %}<br/><a href="assets/other/best_paper_saner.pdf" style="font-weight: bold">{{ item.award }}{% endif %}</a>
+    {% if item.award %}<br/><a class ="fa fa-star" href="assets/other/best_paper_saner.pdf" style="font-weight: bold"> {{ item.award }}{% endif %}</a>
   </li></p>
 {% endfor %}
 

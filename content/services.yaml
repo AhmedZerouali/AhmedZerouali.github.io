@@ -14,24 +14,35 @@
 - where: Software Quality Journal.
   kind: Review
   year: "2020, 2021"
+- where: Science of Computer Programming Journal
+  kind: Review
+  year: 2021
 - where: Journal of IEEE Software
   kind: review
   year: 2020
-- where: Mining Software Repositories - Hackathon
+- where: Mining Software Repositories (MSR) - Hackathon .
   kind: Review
   year: "2022"
-- where: International Conference on Cloud Computing and Artificial Intelligence.
+- where: International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE).
+  kind: Review
+  year: 2022
+- where: International Conference on Open Source Systems (OSS).
+  kind: Review
+  year: 2022
+- where: The Belgium-Netherlands Software Evolution Workshop (BENEVOL).
+  year: 2022
+- where: International Conference on Cloud Computing and Artificial Intelligence (CloudTech). 
   kind: Review
   year: 2020
-- where: Mining Software Repositories.
+- where: Mining Software Repositories (MSR).
   kind: Review
   sub: "Sub-review: "
   year: "2020, 2021"
-- where: International Conference on Software Maintenance and Evolution.
+- where: International Conference on Software Maintenance and Evolution (ICSME).
   kind: Review
   sub: "Sub-review: "
   year: "2020, 2021"
-- where: International Conference on Software and Systems Reuse.
+- where: International Conference on Software and Systems Reuse (ICSR).
   kind: Review
   sub: "Sub-review: "
   year: 2020
@@ -65,19 +76,19 @@
 
 # Projects
 - project: "SECO-ASSIST: <b style=\"font-style: italic;\">Automated Assistance for Developing Software in Ecosystems of the Future</b>"
-  period: "Mar 2020 - ongoing"
+  period: "March 2020 - ongoing"
   link: https://secoassist.github.io/
   role: Postdoc researcher
   kind: Projects
 
 - project: "SENECA: <b style=\"font-style: italic;\">Software Engineering in Enterprise Cloud Applications</b>"
-  period: "Sep 2017 - Dec 2018"
+  period: "September 2017 - December 2018"
   link: http://senecaproject.github.io/
   role: PhD student
   kind: Projects
 
 - project: "DISSE: <b style=\"font-style: italic;\">Data-Intensive Software System Evolution</b>"
-  period: "Jun 2016 - Jun 2017"
+  period: "June 2016 - June 2017"
   link: https://www.researchgate.net/project/DISSE-Data-Intensive-Software-System-Evolution
   role: PhD student
   kind: Projects

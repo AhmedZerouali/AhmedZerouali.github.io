@@ -11,9 +11,10 @@
 <h3>Organizing Committee Member</h3>
 {% for item in services|selectattr('kind', 'equalto', 'Organization') %}
 <p><li>
-        <strong>{{ item.event }} </strong><br/>
+        {% if item.link %}<a href="{{ item.link }}"><strong>{{ item.event }} </strong></a>
+        {% else %}<strong>{{ item.event }} </strong>
+        {% endif %}<br/>
         {{ item.where }}<br/>
-        {% if item.link %}[<a href="{{ item.link }}">Website</a>]{% endif %}
 </li></p>
 {% endfor %}
 
@@ -31,9 +32,10 @@
 {% for item in services|selectattr('kind', 'equalto', 'Awards') %}
 <p><li>
 
-        <strong>{{ item.award }} </strong><br/>
+        {% if item.link %}<a href="{{ item.link }}"><strong>{{ item.award }} </strong></a>
+        {% else %}<strong>{{ item.award }} </strong>
+        {% endif %}<br/>
         {{ item.where }}<br/>
-        {% if item.link %}[<a href="{{ item.link }}">PDF</a>]{% endif %}
 </li></p>
 {% endfor %}
 
@@ -41,10 +43,11 @@
 {% for item in services|selectattr('kind', 'equalto', 'Projects') %}
 <p><li>
 
-        <strong>{{ item.project }} </strong><br/>
+        {% if item.link %}<a href="{{ item.link }}"><strong>{{ item.project }} </strong></a>
+        {% else %}<strong>{{ item.project }} </strong>
+        {% endif %}<br/>
         {{ item.role }}<br/>
         {{ item.period }}<br/>
-        {% if item.link %}[<a href="{{ item.link }}">Website</a>]{% endif %}
 </li></p>
 {% endfor %}
 
