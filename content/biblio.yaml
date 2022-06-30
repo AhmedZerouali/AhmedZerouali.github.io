@@ -4,6 +4,7 @@
   number: 15
   year: 2022
   published: 19th International Conference on Mining Software Repositories (MSR)
+  doi: https://ieeexplore.ieee.org/document/9796178
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-09.pdf
 - title: "Prevalence and Evolution of License Violations in npm and RubyGems Dependency Networks"
   authors: Ilyas Said Makari, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
@@ -11,6 +12,7 @@
   number: 14
   year: 2022
   published: 20th International Conference on Software Reuse (ICSR)
+  doi: https://doi.org/10.1007/978-3-031-08129-3_6
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-08.pdf
 - title: "Variant Forks – Motivations and Impediments"
   authors: John Businge, <b style="color:black;">Ahmed Zerouali</b>, Alexandre Decan, Tom Mens, Serge Demeyer, Coen De Roover
@@ -25,6 +27,7 @@
   year: 2022
   number: 6
   published: Empirical Software Engineering (EMSE)
+  doi: https://doi.org/10.1007/s10664-022-10154-1
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-06.pdf
 - title: "Back to the Past -- Analysing Backporting Practices in Package Dependency Networks"
   authors: Alexandre Decan, Tom Mens, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
