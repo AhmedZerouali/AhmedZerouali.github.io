@@ -1,3 +1,10 @@
+- title: "Mining for Framework Instantiation Pattern Interplays"
+  authors: Yunior Pacheco, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
+  kind: Conferences
+  number: 16
+  year: 2022
+  published: 22nd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2022)
+  pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-13.pdf
 - title: "Smelly Variables in Ansible Infrastructure Code: Detection, Prevalence, and Lifetime"
   authors: Ruben Opdebeeck, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
   kind: Conferences
