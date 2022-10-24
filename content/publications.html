@@ -33,7 +33,7 @@
     {% if item.misc %}<br />{{ item.misc }}{% endif %}
     <br />
     {% if item.slides %}[<a href="{{ item.slides }}">Slides</a>]{% endif %}{% if item.video %}[<a href="{{ item.video }}">Video</a>]{% endif %}
-    {% if item.award %}<br/><a class ="fa fa-star" href="assets/other/best_paper_saner.pdf" style="font-weight: bold"> {{ item.award }}{% endif %}</a>
+    {% if item.award %}<br/><a class ="fa fa-star" href="{{ item.award_pdf }}" style="font-weight: bold"> {{ item.award }}{% endif %}</a>
   </li></p>
 {% endfor %}
 

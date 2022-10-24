@@ -21,12 +21,14 @@
   published: 20th International Conference on Software Reuse (ICSR)
   doi: https://doi.org/10.1007/978-3-031-08129-3_6
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-08.pdf
+  slides: https://www.slideshare.net/neglectos/licensesicsr2022
 - title: "Variant Forks – Motivations and Impediments"
   authors: John Businge, <b style="color:black;">Ahmed Zerouali</b>, Alexandre Decan, Tom Mens, Serge Demeyer, Coen De Roover
   kind: Conferences
   number: 13
   year: 2022
   published: 29th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
+  doi: https://doi.org/10.1109/SANER53432.2022.00105
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-03.pdf
 - title: "On the Impact of Security Vulnerabilities in the npm and RubyGems Dependency Networks"
   authors: <b style="color:black;" >Ahmed Zerouali</b>, Tom Mens, Alexandre Decan, Coen De Roover
@@ -126,6 +128,7 @@
   number: 8
   year: 2019
   award: Best Paper Award
+  award_pdf: assets/other/best_paper_saner.pdf
   published: 26th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
   doi: https://doi.org/10.1109/SANER.2019.8668013
   pdf: https://arxiv.org/pdf/1811.12874.pdf
@@ -191,62 +194,83 @@
   doi: https://doi.org/10.1145/3128128.3128146
   pdf: http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/9E78F727-280C-4D05-A6D3-03EC66A513EA/sample-sigconf.pdf
   slides: https://www.slideshare.net/neglectos/an-empirical-comparison-of-the-development-history-of-cloudstack-and-eucalyptus
+- title: "On the Impact of Security Vulnerabilities in the npm and RubyGems Dependency Networks"
+  authors: <b style="color:black;" >Ahmed Zerouali</b>
+  kind: Presentation
+  number: 16
+  year: 2022
+  published: 38th IEEE International Conference on Software Maintenance and Evolution, Limassol - Cyprus 
+  slides: https://www.slideshare.net/neglectos/icsme22jfzeroualipdf
+- title: "Prevalence and Evolution of License Violations in npm and RubyGems Dependency Networks"
+  authors: <b style="color:black;" >Ahmed Zerouali</b>
+  kind: Presentation
+  number: 15
+  year: 2022
+  published: 20th International Conference on Software Reuse (ICSR), Montpellier - France (Virtual)
+  slides: https://www.slideshare.net/neglectos/licensesicsr2022
 - title: "On Backporting Practices in Package Dependency Networks"
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 13
+  number: 14
   year: 2022
   published: FOSDEM, Brussels - Belgium (Virtual)
   slides: https://fosdem.org/2022/schedule/event/on_backporting_practices_in_package_dependency_networks/
 - title: "A multi-dimensional analysis of technical lag in Debian-based Docker images"
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 12
+  number: 13
   year: 2021
   published: Groupe de Travail Vélocité Logicielle (LIP6), Paris - France
   slides: https://www.slideshare.net/neglectos/groupe-de-travail-vlocit-logicielle-paris
 - title: "Quantifying Outdatedness Using the Technical Lag Measurement"
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 11
+  number: 12
   year: 2021
   published: PackagingCon, Virtual
   slides: https://pretalx.com/packagingcon-2021/talk/TCRVXX/
 - title: "Identifying Versions of Libraries used in Stack Overflow Code Snippets"
   authors: <b style="color:black;" >Ahmed Zerouali</b>, Camilo Velázquez-Rodríguez and Coen De Roover
   kind: Presentation
-  number: 10
+  number: 11
   year: 2021
-  published: the 18th International Conference on Mining Software Repositories (MSR) - Madrdid (VIRTUAL)
+  published: the 18th International Conference on Mining Software Repositories (MSR) - Madrid (VIRTUAL)
   slides: https://youtu.be/P6zeRvyCApE
 - title: "Technical Lag: Measuring the outdatedness, vulnerability and bugginess of software"
   authors: Tom Mens and <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 9
+  number: 10
   year: 2020
   published: CHAOSScon Europe, Brussels, Belgium
   slides: https://www.slideshare.net/tommens/measuring-technical-lag-in-software-deployments-chaosscon-2020
 - title: A Formal Framework for Measuring Technical Lag in Component Repositories
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 8
+  number: 9
   year: 2019
-  published: BENEVOL, Brussels - Belgium.
+  published: BENEVOL, Brussels - Belgium
   slides: https://www.slideshare.net/neglectos/technical-lag-in-software-ecosystems
 - title: Analyzing Technical Lag in Docker Images
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 7
+  number: 8
   year: 2018
   published: BENEVOL, Delft - The Netherlands
   slides: https://www.slideshare.net/neglectos/technical-lag-in-docker-containers
 - title: "Software Health of Reusable Systems: a Study of Technical Lag in npm and Docker"
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
-  number: 6
+  number: 7
   year: 2018
   published: SoHeal, Gothenburg - Sweden
   slides: https://www.slideshare.net/neglectos/technical-lag-in-npm-and-docker-ecosystems
+- title: "An Empirical Analysis of Technical Lag in npm Package Dependencies"
+  authors: <b style="color:black;" >Ahmed Zerouali</b>
+  kind: Presentation
+  year: 2018
+  number: 6
+  published: 17th International Conference on Software Reuse (ICSR), Madrid - Spain
+  slides: https://www.slideshare.net/neglectos/icsr2018
 - title: Technical lag for software deployments
   authors: Jesus Gonzalez-Barahona and <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
@@ -259,6 +283,7 @@
   number: 4
   year: 2017
   published: BENEVOL, Antwerp - Belgium
+  slides: https://www.slideshare.net/neglectos/popularityvsmaintenance
 - title: An empirical comparison of the development history of cloudstack and eucalyptus
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
@@ -272,6 +297,7 @@
   number: 2
   year: 2017
   published: SATOSSE, Madrid - Spain
+  slides: https://www.slideshare.net/neglectos/satosse17
 - title: On the Usage Evolution of Java Testing Libraries
   authors: <b style="color:black;" >Ahmed Zerouali</b>
   kind: Presentation
