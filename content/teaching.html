@@ -6,16 +6,39 @@
 <h1>Teaching</h1>
 
 {% set services = load_yaml('services.yaml') %}
+<h3>Lecturer</h3>
 
 
-{% for item in services|selectattr('kind', 'equalto', 'Teaching') %}
+{% for item in services|selectattr('kind', 'equalto', 'Lecturer') %}
 <p>
-        <li><strong>{{ item.role }} </strong></br>
+        <li><a href="{{ item.link }}"><strong>{{ item.role }} </strong></a></br>
+        {{ item.course }}</br>
+        {{ item.year }}</li>
+</p>
+
+{% endfor %}
+
+<h3>Assistant</h3>
+
+{% for item in services|selectattr('kind', 'equalto', 'Assistant') %}
+<p>
+        <li><a href="{{ item.link }}"><strong>{{ item.role }} </strong></a></br>
         {{ item.course }}</br>
         {% if item.prof %} {{ item.prof }}</br>
         {% endif %} {{ item.year }}</li>
 </p>
+
 {% endfor %}
 
+<h1>Supervision of Master and Bachelor Thesis</h1>
+{% set count = 6 %}
 
+{% for item in services|selectattr('kind', 'equalto', 'Supervision') %}
+<p>
+        <li>[S{{count - loop.index}}] <strong>{{ item.title }} </strong> - {{ item.student }}</br>
+        {{ item.year }}, {{ item.univ }}</br>
+        Promotor: {{ item.prof }}</li>
+</p>
+
+{% endfor %}
 {% endblock %}

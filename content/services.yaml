@@ -24,29 +24,30 @@
   kind: review
   year: 2020
 - where: Mining Software Repositories (MSR) - Hackathon.
-  kind: Review
+  kind: ReviewConf
   year: "2022"
 - where: International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE).
-  kind: Review
+  kind: ReviewConf
   year: 2022
 - where: International Conference on Open Source Systems (OSS).
-  kind: Review
+  kind: ReviewConf
   year: 2022
 - where: The Belgium-Netherlands Software Evolution Workshop (BENEVOL).
   year: 2022
+  kind: ReviewConf
 - where: International Conference on Cloud Computing and Artificial Intelligence (CloudTech). 
-  kind: Review
+  kind: ReviewConf
   year: 2020
 - where: Mining Software Repositories (MSR).
-  kind: Review
+  kind: ReviewConf
   sub: "Sub-review: "
   year: "2020, 2021"
 - where: International Conference on Software Maintenance and Evolution (ICSME).
-  kind: Review
+  kind: ReviewConf
   sub: "Sub-review: "
   year: "2020, 2021"
 - where: International Conference on Software and Systems Reuse (ICSR).
-  kind: Review
+  kind: ReviewConf
   sub: "Sub-review: "
   year: 2020
 
@@ -64,18 +65,69 @@
   kind: Organization
   link:  http://ensias.um5.ac.ma/library/journals/ideo-iusto-valde-vulpes
 
-# Teaching
-- role: "Teaching Assistant for the <b style=\"font-style: italic;\">Software Architectures</b> course"
-  course: "For Master students at the Vrije Universiteit Brussel, Brussels - Belgium"
+# Teaching Lecturer
+- role: "Capita Selecta of Software Engineering"
+  link: https://caliweb.vub.be/?page=course-offer&id=005049&anchor=1&target=pr&year=2324&language=en&output=html
+  course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
+  kind: Lecturer
+  year: 2022/2023
+
+- role: "Security in Computing"
+  link: https://caliweb.vub.be/?page=course-offer&id=009554&anchor=1&target=pr&year=2324&language=en&output=html
+  course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
+  kind: Lecturer
+  year: 2012/2023
+
+  # Teaching Assistant
+- role: "Software Architectures"
+  link: https://caliweb.vub.be/?page=course-offer&id=005419&anchor=1&target=pr&year=2324&language=en&output=html
+  course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
   prof: "With <a href=\"http://soft.vub.ac.be/~cderoove/\">Prof. Coen De Roover</a>"
-  kind: Teaching
+  kind: Assistant
   year: 2020/2021, 2021/2022
 
-- role: "Teaching Assistant for the <b style=\"font-style: italic;\">Software Evolution</b> course"
-  course: "For Master students at the University of Mons, Mons - Belgium"
+- role: "Software Evolution"
+  link: https://webcontent.umons.ac.be/web/en/pde/2019-2020/aa/S-INFO-029.htm
+  course: "For Master students at Université de Mons, Mons - Belgium"
   prof: "With <a href=\"http://informatique.umons.ac.be/perso/Mens.Tom/\">Prof. Tom Mens</a>"
-  kind: Teaching
+  kind: Assistant
   year: 2019/2020
+
+# Supervision
+- title: "Detecting Code Smells in Dockerfiles"
+  student: I. Angillis
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2022/2023"
+  kind: Supervision
+
+- title: "An Empirical Analysis of the DockerHub Inheritance Network"
+  student: J. S. Lesy
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2022/2023"
+  kind: Supervision
+
+- title: "Effort to Upgrade APIs with Breaking Changes in Maven Central"
+  student: K. Mankevič
+  univ: "Eindhoven University of Technology"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2021/2022"
+  kind: Supervision
+
+- title: "Graph-Based Security Smell Detection For Infrastructure as Code"
+  student: A. R. Van Quickelberghe
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2021/2022"
+  kind: Supervision
+
+- title: "On License Compatibility in Dependency Network of OSS Package Repositories"
+  student: I. S. Makari
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Bachelor 2020/2021"
+  kind: Supervision
 
 # Projects
 - project: "SECO-ASSIST: <b style=\"font-style: italic;\">Automated Assistance for Developing Software in Ecosystems of the Future</b>"

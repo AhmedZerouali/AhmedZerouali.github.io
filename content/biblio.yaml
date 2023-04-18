@@ -11,6 +11,7 @@
   number: 17
   year: 2023
   published: 20th International Conference on Mining Software Repositories (MSR)
+  pdf: https://soft.vub.ac.be/Publications/2023/vub-tr-soft-23-09.pdf
 - title: "Mining for Framework Instantiation Pattern Interplays"
   authors: Yunior Pacheco, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
   kind: Conferences

@@ -20,8 +20,17 @@
 
 
 <h3>Reviewer for International Journals and Conferences</h3>
+<h4> International Journals</h4>
 
 {% for item in services|selectattr('kind', 'equalto', 'Review') %}
+<li>
+        {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>
+    <br/>
+ </li>
+{% endfor %}
+
+<h4> International Conferences</h4>
+{% for item in services|selectattr('kind', 'equalto', 'ReviewConf') %}
 <li>
         {% if item.sub %}{{ item.sub }}{% endif %} <strong>{{ item.where }} </strong>{{ item.year }}
     <br/>
