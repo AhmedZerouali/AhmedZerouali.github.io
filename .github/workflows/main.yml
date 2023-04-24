@@ -1,0 +1,31 @@
+name: Build and Deploy Pages
+
+on:
+  push:
+    branches:
+      - sources
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Build
+      run: sh build.sh
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.WTOKEN }}
+        publish_dir: output/
+        publish_branch: main
+      if: success()
