@@ -1,4 +1,5 @@
 # Reviewing
+# Journals
 - where: ACM Transactions on Software Engineering and Methodology Journal.
   kind: Review
   year: 2022
@@ -23,10 +24,17 @@
 - where: Journal of IEEE Software
   kind: review
   year: 2020
-- where: Mining Software Repositories (MSR) - Hackathon.
+# Conferences
+- where: International Conference on Program Comprehension (ICPC) - ERA and RENE Tracks.
   kind: ReviewConf
-  year: "2022"
+  year: 2023
+- where: International Conference on Mining Software Repositories (MSR) - Data and Tool Showcase track.
+  kind: ReviewConf
+  year: 2023
 - where: International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE).
+  kind: ReviewConf
+  year: 2022
+- where: International Conference on Mining Software Repositories (MSR) - Hackathon track.
   kind: ReviewConf
   year: 2022
 - where: International Conference on Open Source Systems (OSS).
@@ -38,7 +46,7 @@
 - where: International Conference on Cloud Computing and Artificial Intelligence (CloudTech). 
   kind: ReviewConf
   year: 2020
-- where: Mining Software Repositories (MSR).
+- where: International Conference on Mining Software Repositories (MSR).
   kind: ReviewConf
   sub: "Sub-review: "
   year: "2020, 2021"
@@ -50,7 +58,6 @@
   kind: ReviewConf
   sub: "Sub-review: "
   year: 2020
-
 # Oraganization 
 - event: The 4th International Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)
   where: Co-located with ICSE 2021
