@@ -1,9 +1,16 @@
+- title: "The Docker Hub Image Inheritance Network: Construction and Empirical Insights"
+  authors: Ruben Opdebeeck, Jonas Lesy, <b style="color:black;">Ahmed Zerouali</b> and Coen De Roover
+  kind: Conferences
+  number: 19
+  year: 2023
+  published: 23d IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
 - title: "Helm Charts for Kubernetes Applications: Evolution, Outdatedness and Security Risks"
   authors: <b style="color:black;">Ahmed Zerouali</b>, Ruben Opdebeeck, Coen De Roover
   kind: Conferences
   number: 18
   year: 2023
   published: 20th International Conference on Mining Software Repositories (MSR)
+  doi: https://doi.org/10.1109/MSR59073.2023.00078
   pdf: https://soft.vub.ac.be/Publications/2023/vub-tr-soft-23-08.pdf
 - title: "Control and Data Flow in Security Smell Detection for Infrastructure as Code: Is It Worth the Effort?"
   authors: Ruben Opdebeeck, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
@@ -11,13 +18,14 @@
   number: 17
   year: 2023
   published: 20th International Conference on Mining Software Repositories (MSR)
+  doi: https://doi.org/10.1109/MSR59073.2023.00079
   pdf: https://soft.vub.ac.be/Publications/2023/vub-tr-soft-23-09.pdf
 - title: "Mining for Framework Instantiation Pattern Interplays"
   authors: Yunior Pacheco, <b style="color:black;">Ahmed Zerouali</b>, Coen De Roover
   kind: Conferences
   number: 16
   year: 2022
-  published: 22nd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2022)
+  published: 22nd IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
   doi: https://doi.org/10.1109/SCAM55253.2022.00019
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-13.pdf
 - title: "Smelly Variables in Ansible Infrastructure Code: Detection, Prevalence, and Lifetime"
@@ -107,7 +115,7 @@
   authors:  Ruben Opdebeeck, <b style="color:black;" >Ahmed Zerouali</b>, Camilo Velazquez-Rodriguez and Coen De Roover
   kind: Conferences
   number: 10
-  published: 20th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) co-located with ICSME
+  published: 20th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
   year: 2020
   pdf: http://soft.vub.ac.be/Publications/2020/vub-tr-soft-20-08.pdf
   doi: https://doi.org/10.1109/SCAM51674.2020.00032
