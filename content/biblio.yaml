@@ -1,8 +1,15 @@
+- title: "Analysing Infrastructure-as-Code Ecosystems"
+  authors: Ruben Opdebeeck, <b style="color:black;">Ahmed Zerouali</b> and Coen De Roover
+  kind: Book Chapters
+  number: 1
+  year: 2023
+  published: "Software Ecosystems: Tooling and Analytics (Springer)"
 - title: "The Docker Hub Image Inheritance Network: Construction and Empirical Insights"
   authors: Ruben Opdebeeck, Jonas Lesy, <b style="color:black;">Ahmed Zerouali</b> and Coen De Roover
   kind: Conferences
   number: 19
   year: 2023
+  pdf: https://soft.vub.ac.be/Publications/2023/vub-tr-soft-23-14.pdf
   published: 23d IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)
 - title: "Helm Charts for Kubernetes Applications: Evolution, Outdatedness and Security Risks"
   authors: <b style="color:black;">Ahmed Zerouali</b>, Ruben Opdebeeck, Coen De Roover

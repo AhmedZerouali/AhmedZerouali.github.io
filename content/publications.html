@@ -5,7 +5,6 @@
 {% block body %}
 <h1>Publications</h1>
 
-
 {% set biblio = load_yaml('biblio.yaml') %}
 
 {% set last = {'year': -1, 'kind': None} %}
@@ -13,7 +12,7 @@
 {% for item in biblio|sort(reverse=True, attribute='kind')|rejectattr('kind', 'equalto', 'Presentation') %}
 
   {% if last['kind'] != item.kind %}
-      <h3>{{ item.kind }}</h3>
+      <h3><b>{{ item.kind }}</b></h3>
 
     {% if last.update({'kind': item.kind, 'kind': None}) %}{% endif %}
   {% endif %}
