@@ -60,6 +60,14 @@
   published: 29th IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)
   doi: https://doi.org/10.1109/SANER53432.2022.00105
   pdf: https://soft.vub.ac.be/Publications/2022/vub-tr-soft-22-03.pdf
+- title: "A Comprehensive Study of the Lifecycle of Dormant npm Packages"
+  authors: <b style="color:black;" >Ahmed Zerouali</b>, Valeria Pontillo, Coen De Roover
+  kind: Journals
+  year: 2025
+  number: 7
+  published: Empirical Software Engineering (EMSE)
+  doi: https://doi.org/10.1007/s10664-025-10753-8
+  pdf: https://soft.vub.ac.be/Publications/2025/vub-tr-soft-25-18.pdf
 - title: "On the Impact of Security Vulnerabilities in the npm and RubyGems Dependency Networks"
   authors: <b style="color:black;" >Ahmed Zerouali</b>, Tom Mens, Alexandre Decan, Coen De Roover
   kind: Journals
