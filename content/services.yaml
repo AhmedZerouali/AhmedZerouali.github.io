@@ -25,15 +25,18 @@
   kind: review
   year: 2020
 # Conferences
+- where: Intel’ Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE).
+  kind: ReviewConf
+  year: "2022-2024-2025-2026"
+- where: International Conference on Mining Software Repositories (MSR).
+  kind: ReviewConf
+  year: 2024
 - where: International Conference on Program Comprehension (ICPC) - ERA and RENE Tracks.
   kind: ReviewConf
-  year: 2023
+  year: "2023-2024"
 - where: International Conference on Mining Software Repositories (MSR) - Data and Tool Showcase track.
   kind: ReviewConf
   year: 2023
-- where: International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE).
-  kind: ReviewConf
-  year: 2022
 - where: International Conference on Mining Software Repositories (MSR) - Hackathon track.
   kind: ReviewConf
   year: 2022
@@ -45,18 +48,6 @@
   kind: ReviewConf
 - where: International Conference on Cloud Computing and Artificial Intelligence (CloudTech). 
   kind: ReviewConf
-  year: 2020
-- where: International Conference on Mining Software Repositories (MSR).
-  kind: ReviewConf
-  sub: "Sub-review: "
-  year: "2020, 2021"
-- where: International Conference on Software Maintenance and Evolution (ICSME).
-  kind: ReviewConf
-  sub: "Sub-review: "
-  year: "2020, 2021"
-- where: International Conference on Software and Systems Reuse (ICSR).
-  kind: ReviewConf
-  sub: "Sub-review: "
   year: 2020
 # Oraganization 
 - event: The 4th International Workshop on Software Health in Projects, Ecosystems and Communities (SoHeal)
@@ -77,13 +68,13 @@
   link: https://caliweb.vub.be/?page=course-offer&id=005049&anchor=1&target=pr&year=2324&language=en&output=html
   course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
   kind: Lecturer
-  year: 2022/2023
+  year: 2022-2024
 
 - role: "Security in Computing"
   link: https://caliweb.vub.be/?page=course-offer&id=009554&anchor=1&target=pr&year=2324&language=en&output=html
   course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
   kind: Lecturer
-  year: 2022/2023
+  year: 2022-2025
 
   # Teaching Assistant
 - role: "Software Architectures"
@@ -91,7 +82,7 @@
   course: "For Master students at Vrije Universiteit Brussel, Brussels - Belgium"
   prof: "With <a href=\"http://soft.vub.ac.be/~cderoove/\">Prof. Coen De Roover</a>"
   kind: Assistant
-  year: 2020/2021, 2021/2022
+  year: 2020-2022
 
 - role: "Software Evolution"
   link: https://webcontent.umons.ac.be/web/en/pde/2019-2020/aa/S-INFO-029.htm
@@ -101,6 +92,20 @@
   year: 2019/2020
 
 # Supervision
+- title: "Security Weaknesses In Github Actions Workflows"
+  student: J.L Stoels
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2023/2024"
+  kind: Supervision
+
+- title: "Predicting Software Performance Degradation Using Machine Learning"
+  student: T. El Hihi
+  univ: "Vrije Universiteit Brussel, Brussels - Belgium"
+  prof: "Prof. Coen De Roover"
+  year: "Master 2023/2024"
+  kind: Supervision
+
 - title: "Detecting Code Smells in Dockerfiles"
   student: I. Angillis
   univ: "Vrije Universiteit Brussel, Brussels - Belgium"
